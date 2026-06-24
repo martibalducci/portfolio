@@ -271,6 +271,18 @@ ul { list-style: none; }
   margin-bottom: 20px;
 }
 
+.hero-linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: .85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+  transition: color var(--transition);
+}
+.hero-linkedin:hover { color: var(--blue); }
+
 .hero-roles {
   font-size: 1rem;
   font-weight: 500;
