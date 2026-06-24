@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Martiniano Balducci — Marketing · Web · IA</title>
+  <meta name="description" content="Portfolio de Martiniano Balducci. Marketing Estratégico, Desarrollo Web y Automatizaciones con IA." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── NAVBAR ─── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">MB</a>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#sobre">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section id="hero">
+    <div class="hero-inner">
+      <div class="hero-photo-wrap">
+        <img
+          src="foto.jpg"
+          alt="Martiniano Balducci"
+          class="hero-photo"
+          onerror="this.style.display='none';document.getElementById('photo-fallback').style.display='flex'"
+        />
+        <div class="hero-photo hero-photo--fallback" id="photo-fallback">MB</div>
+      </div>
+      <div class="hero-text">
+        <p class="hero-label">Disponible para proyectos</p>
+        <h1>Martiniano<br>Balducci</h1>
+        <p class="hero-roles">Marketing Estratégico · Desarrollo Web · Automatizaciones con IA</p>
+        <p class="hero-tagline">Ayudo a negocios a crecer de forma inteligente, combinando estrategia de marketing con ejecución técnica real.</p>
+        <div class="hero-ctas">
+          <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+          <a href="#contacto" class="btn btn--ghost">Contactame</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── SOBRE MÍ ─── -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Sobre mí</span>
+        <h2>Entiendo el negocio.<br>Lo ejecuto técnicamente.</h2>
+      </div>
+      <div class="sobre-grid reveal">
+        <div class="sobre-text">
+          <p>Soy <strong>Técnico en Marketing</strong> recibido y estoy cursando el último año de la Licenciatura en Administración en la <strong>UADER</strong> (Argentina). Trabajo 100% remoto.</p>
+          <p>Mi diferencial está en la intersección: tengo visión estratégica de negocio <em>y</em> capacidad técnica de ejecución. No solo planifico — construyo.</p>
+        </div>
+        <div class="pilares">
+          <div class="pilar">
+            <div class="pilar-icon">📊</div>
+            <h3>Estrategia basada en datos</h3>
+            <p>Decisiones fundamentadas en métricas reales, no suposiciones.</p>
+          </div>
+          <div class="pilar">
+            <div class="pilar-icon">⚙️</div>
+            <h3>Ejecución técnica real</h3>
+            <p>De la estrategia al código. Del concepto al producto funcionando.</p>
+          </div>
+          <div class="pilar">
+            <div class="pilar-icon">🎯</div>
+            <h3>Enfoque en resultados</h3>
+            <p>Todo lo que hago tiene un objetivo de negocio claro y medible.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── HABILIDADES ─── -->
+  <section id="habilidades" class="section section--alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Habilidades</span>
+        <h2>Dos mundos,<br>un perfil.</h2>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skills-group">
+          <div class="skills-group-header">
+            <span class="skills-icon">📣</span>
+            <h3>Marketing</h3>
+          </div>
+          <ul class="skills-list">
+            <li><span class="skill-tag">Meta Ads</span></li>
+            <li><span class="skill-tag">Email Marketing</span></li>
+            <li><span class="skill-tag">Social Media Orgánico</span></li>
+            <li><span class="skill-tag">E-commerce</span></li>
+            <li><span class="skill-tag">Looker Studio / Dashboards</span></li>
+            <li><span class="skill-tag">Análisis de mercado</span></li>
+            <li><span class="skill-tag">Planificación estratégica</span></li>
+          </ul>
+        </div>
+        <div class="skills-divider"></div>
+        <div class="skills-group">
+          <div class="skills-group-header">
+            <span class="skills-icon">💻</span>
+            <h3>Tecnología</h3>
+          </div>
+          <ul class="skills-list">
+            <li><span class="skill-tag skill-tag--tech">Next.js / React / TypeScript</span></li>
+            <li><span class="skill-tag skill-tag--tech">Desarrollo web completo</span></li>
+            <li><span class="skill-tag skill-tag--tech">Make (automatizaciones)</span></li>
+            <li><span class="skill-tag skill-tag--tech">IA aplicada a flujos de trabajo</span></li>
+            <li><span class="skill-tag skill-tag--tech">PostgreSQL / Prisma</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROYECTOS ─── -->
+  <section id="proyectos" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Proyectos</span>
+        <h2>Lo que construí.</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Proyecto 1: VANTAGE -->
+        <div class="project-card reveal">
+          <div class="project-preview project-preview--vantage">
+            <div class="browser-frame">
+              <div class="browser-bar">
+                <div class="browser-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="browser-url">martibalducci.github.io/vantage-web</div>
+              </div>
+              <div class="browser-content vantage-mock">
+                <div class="vantage-header">
+                  <span class="vantage-logo">VANTAGE</span>
+                  <span class="vantage-badge">● En vivo</span>
+                </div>
+                <p class="vantage-sub">Inteligencia comercial para tu negocio</p>
+                <div class="vantage-metrics">
+                  <div class="metric">
+                    <span class="metric-label">Facturación</span>
+                    <span class="metric-value">$1.240.500</span>
+                    <span class="metric-delta up">↑ 12%</span>
+                  </div>
+                  <div class="metric">
+                    <span class="metric-label">Operaciones</span>
+                    <span class="metric-value">348</span>
+                    <span class="metric-delta up">↑ 8%</span>
+                  </div>
+                  <div class="metric">
+                    <span class="metric-label">Ticket promedio</span>
+                    <span class="metric-value">$3.565</span>
+                    <span class="metric-delta up">↑ 3%</span>
+                  </div>
+                  <div class="metric">
+                    <span class="metric-label">Margen neto</span>
+                    <span class="metric-value">24,8%</span>
+                    <span class="metric-delta down">↓ 1%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-type">Proyecto propio</span>
+            </div>
+            <h3>VANTAGE</h3>
+            <p>Servicio de inteligencia comercial para negocios. Transforma datos de ventas en un panel simple, en tiempo real, accesible desde cualquier dispositivo.</p>
+            <div class="project-tags">
+              <span>Estrategia</span>
+              <span>Automatización</span>
+              <span>Looker Studio</span>
+              <span>Make</span>
+              <span>Desarrollo web</span>
+            </div>
+            <div class="project-links">
+              <a href="https://martibalducci.github.io/vantage-web/" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Ver proyecto →</a>
+              <a href="https://martibalducci.github.io/vantage-demo/?cliente=cafeteria-demo&token=demo2026" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">Ver demo →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 2: Del Río Café -->
+        <div class="project-card reveal">
+          <div class="project-preview project-preview--delrio">
+            <div class="browser-frame">
+              <div class="browser-bar">
+                <div class="browser-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="browser-url">Plan de Marketing — Del Río Café</div>
+              </div>
+              <div class="browser-content delrio-mock">
+                <div class="delrio-header">
+                  <div class="delrio-logo-wrap">
+                    <span class="delrio-icon">☕</span>
+                    <span class="delrio-name">Del Río Café</span>
+                  </div>
+                  <span class="delrio-doc-type">Plan de Marketing Integral</span>
+                </div>
+                <div class="delrio-sections">
+                  <div class="delrio-section">
+                    <span class="delrio-num">01</span>
+                    <div>
+                      <strong>Análisis de mercado</strong>
+                      <p>FODA · Competencia · Tendencias</p>
+                    </div>
+                  </div>
+                  <div class="delrio-section">
+                    <span class="delrio-num">02</span>
+                    <div>
+                      <strong>Estrategia de contenidos</strong>
+                      <p>Social · Email · Comunidad</p>
+                    </div>
+                  </div>
+                  <div class="delrio-section">
+                    <span class="delrio-num">03</span>
+                    <div>
+                      <strong>Hoja de ruta digital</strong>
+                      <p>90 días · KPIs · Budget</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-type">Pasantía</span>
+              <span class="project-badge">Consultoría</span>
+            </div>
+            <h3>Del Río Café</h3>
+            <p>Plan de marketing integral para negocio gastronómico argentino. Análisis de mercado, estrategia de contenidos y hoja de ruta digital.</p>
+            <div class="project-tags">
+              <span>Marketing</span>
+              <span>Estrategia</span>
+              <span>Análisis de mercado</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACTO ─── -->
+  <section id="contacto" class="section section--alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Contacto</span>
+        <h2>Contactame.</h2>
+      </div>
+      <div class="contact-grid reveal">
+        <div class="contact-form-wrap">
+          <form action="https://formspree.io/f/PLACEHOLDER" method="POST" class="contact-form">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" placeholder="Contame de qué se trata tu proyecto..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Enviar mensaje →</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <div class="contact-detail">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <p class="contact-detail-label">Email</p>
+              <a href="mailto:martibalducci2@gmail.com">martibalducci2@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-icon">💬</span>
+            <div>
+              <p class="contact-detail-label">WhatsApp</p>
+              <a href="https://wa.me/4915159102148" target="_blank" rel="noopener">Escribirme por WhatsApp</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-icon">💼</span>
+            <div>
+              <p class="contact-detail-label">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/martiniano-balducci-252682380/" target="_blank" rel="noopener">Martiniano Balducci</a>
+            </div>
+          </div>
+          <div class="contact-availability">
+            <span class="availability-dot"></span>
+            <span>Disponible para proyectos freelance y colaboraciones</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 Martiniano Balducci — Todos los derechos reservados</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/martiniano-balducci-252682380/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:martibalducci2@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
